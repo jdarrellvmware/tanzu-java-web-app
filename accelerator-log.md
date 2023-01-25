@@ -4,7 +4,7 @@
 ```json
 {
   "projectName" : "tanzu-java-web-app",
-  "repositoryPrefix" : "dev.local"
+  "repositoryPrefix" : "public.ecr.aws/k2d3a4f2/tanzu-java-web-app"
 }
 ```
 ## Log
@@ -82,7 +82,7 @@
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[1].<combo>.transformations[1] (ReplaceText)
 ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [tanzu-java-web-app->tanzu-java-web-app]
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[1].<combo>.transformations[2] (ReplaceText)
-┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [your-registry.io/project->dev.local]
+┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [your-registry.io/project->public.ecr.aws/k2d3a4f2/tanzu-java-web-app]
 ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.merge.transformations[0].sources[2] (Combo)
 ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain(Include, chain...)
 ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.merge.transformations[0].sources[2].<combo> (Chain)
