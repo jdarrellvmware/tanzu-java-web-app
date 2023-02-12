@@ -1,4 +1,4 @@
-// HelloControllerTest
+// HelloControllerTest Test class
 package com.example.springboot;
 
 import org.junit.jupiter.api.Test;
